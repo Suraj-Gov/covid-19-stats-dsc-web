@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+header {
+  padding: 0.8rem;
+}
+
+header > * {
+  text-align: center;
+  padding: 0.4rem;
+}
+
+header h3 {
+  font-size: 1.5rem;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 0.8rem;
+}
+
+.stat > * {
+  padding: 0.6rem;
+}
+
+.stat h4 {
+  font-size: 1.5rem;
+}
+
+.stat > *:nth-child(2) {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.stat > *:nth-child(3) {
+  font-size: 1.4rem;
+}
+
+.active {
+  background-color: #FF7E62;
+}
+
+.recovered {
+  background-color: #41EF72;
+}
+
+.vaccinated {
+  background-color: #5FB2FF;
+}
+
+.deaths {
+  background-color: #B4B4B4;
+}
