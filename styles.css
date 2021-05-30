@@ -24,6 +24,12 @@ section {
   place-items: center;
 }
 
+@media only screen and (max-width: 720px) {
+  section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .stat {
   display: flex;
   flex-direction: column;
